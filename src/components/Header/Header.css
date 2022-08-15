@@ -9,3 +9,9 @@
 .header-image {
   width: 250px;
 }
+
+.header-text {
+  font-size: 2em;
+  margin-top: 1.5rem;
+  color: white;
+}
