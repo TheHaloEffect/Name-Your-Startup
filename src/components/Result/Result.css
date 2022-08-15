@@ -1,0 +1,13 @@
+.result-card {
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: purple;
+  color: white;
+  font-size: 1rem;
+  transition: transform 0.1s ease-in-out;
+}
+
+.result-card:hover {
+  transform: scale(1.1);
+}
