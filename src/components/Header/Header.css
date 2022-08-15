@@ -7,11 +7,28 @@
 }
 
 .header-image {
+  width: auto;
+  transition: width .5s ease-in-out;
+}
+
+.header-image-expanded {
   width: 250px;
 }
 
+.header-image-contracted {
+  width: 100px;
+}
+
 .header-text {
-  font-size: 2em;
   margin-top: 1.5rem;
   color: white;
+  transition: font-size .5s;
+}
+
+.header-text-expanded {
+  font-size: 2em;
+}
+
+.header-text-contracted {
+  font-size: 0.8em;
 }
