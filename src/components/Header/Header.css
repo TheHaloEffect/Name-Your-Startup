@@ -7,16 +7,17 @@
 }
 
 .header-image {
-  width: auto;
   transition: width .5s ease-in-out;
 }
 
 .header-image-expanded {
   width: 250px;
+  height: 250px;
 }
 
 .header-image-contracted {
   width: 100px;
+  height: 100px;
 }
 
 .header-text {

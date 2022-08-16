@@ -10,7 +10,9 @@ const name = require('@rstacruz/startup-name-generator');
 
 const App = () => {
   const [generatedNames, setGeneratedNames] = useState([]);
-  const [savedNames, setSavedNames] = useState([]);
+  const [savedNames, setSavedNames] = useState(
+    JSON.parse(localStorage.getItem('savedNames')) || []
+  );
   const [headerExpanded, setHeaderExpanded] = useState(true);
 
   // If the search bar text changes, generate new names and contract the header
@@ -43,7 +45,11 @@ const App = () => {
   return (
     <div className='main-container'>
       <Header headerExpanded={headerExpanded} />
-      <SavedNames savedNames={savedNames} onResultClick={onResultClick} />
+      {savedNames.length > 0 ? (
+        <SavedNames savedNames={savedNames} onResultClick={onResultClick} />
+      ) : (
+        ''
+      )}
       <SearchBar
         headerExpanded={headerExpanded}
         onSearchBarChange={onSearchBarChange}

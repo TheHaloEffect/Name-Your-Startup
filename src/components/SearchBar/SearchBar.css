@@ -15,3 +15,8 @@
   -webkit-box-shadow: 5px 5px 13px 0px #000000;
   box-shadow: 5px 5px 13px 0px #000000;
 }
+
+.search-bar-subtitle {
+  font-size: .8em;
+  ;
+}

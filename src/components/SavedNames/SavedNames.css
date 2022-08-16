@@ -3,7 +3,13 @@
   margin: 5vh 0 2vh 0;
   font-size: 1.5em;
   color: white;
+}
 
+.saved-names-subtitle {
+  text-align: center;
+  margin: 0 0 2vh 0;
+  font-size: .8em;
+  color: white;
 }
 
 .saved-names-div {
@@ -11,7 +17,6 @@
   align-items: center;
   justify-content: center;
   background-color: #280137;
-  height: 10vh;
   flex-wrap: wrap;
 }
 

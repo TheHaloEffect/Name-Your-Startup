@@ -10,7 +10,7 @@ const SearchBar = ({headerExpanded, onSearchBarChange}) => {
   <div className="search-bar-div">
     <input onChange={handleSearchBarChange} type="text" placeholder="Enter word..."></input>
     <br />
-    {!headerExpanded ? <p>Click on name to save</p> : null}
+    {!headerExpanded ? <p className='search-bar-subtitle'>Click on name to save</p> : null}
 </div>
   );
 }
