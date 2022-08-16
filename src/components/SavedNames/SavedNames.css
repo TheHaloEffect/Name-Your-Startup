@@ -1,0 +1,23 @@
+.saved-names-header {
+  text-align: center;
+  margin: 5vh 0 2vh 0;
+  font-size: 1.5em;
+  color: white;
+
+}
+
+.saved-names-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #280137;
+  height: 10vh;
+  flex-wrap: wrap;
+}
+
+.saved-names-div h1 {
+  display: inline;
+  font-size: 1.2em;
+  margin-top: 2rem;
+  color: white;
+}

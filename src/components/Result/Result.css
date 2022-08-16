@@ -1,13 +1,15 @@
 .result-card {
-  padding: 20px 20px;
+  padding: 10px 20px;
+  text-align: center;
   border-radius: 20px;
   margin: 5px;
-  background-color: purple;
+  background-color: #702963;
   color: white;
-  font-size: 1rem;
-  transition: transform 0.1s ease-in-out;
+  font-size: .8em;
+  transition: transform 0.1s, background-color .3s;
 }
 
 .result-card:hover {
   transform: scale(1.1);
+  background-color: #AA336A;
 }
