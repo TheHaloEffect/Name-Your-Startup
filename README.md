@@ -2,6 +2,9 @@
 
 ### [App Link](https://name-your-startup.netlify.app/)
 
+## Demo 
+<img src="name_your_startup_demo.gif" width="480" height="270">
+
 ## Description
 - A React web app that takes in user input and generates startup name ideas from that. 
 - It is responsive and available as a Progressive Web App. Names can be saved and these are stored in LocalStorage. 
