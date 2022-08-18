@@ -1,6 +1,6 @@
 # Name Your Startup
 
-### App Link: https://name-your-startup.netlify.app/
+### [App Link](https://name-your-startup.netlify.app/)
 
 ## Description
 - A React web app that takes in user input and generates startup name ideas from that. 
